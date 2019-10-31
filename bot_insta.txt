@@ -1,0 +1,100 @@
+for(i = 1; i < document.getElementsByClassName('sqdOP  L3NKy    _8A5w5    ').length; i++){document.getElementsByClassName('sqdOP  L3NKy    _8A5w5    ')[i].click();document.getElementsByClassName('aOOlW -Cab_   ')[0].click();}
+
+
+setTimeout(function, milliseconds);,
+
+
+for(i = 1; i < document.getElementsByClassName('sqdOP  L3NKy    _8A5w5    ').length; i++){
+setTimeout(function(){
+document.getElementsByClassName('sqdOP  L3NKy    _8A5w5    ')[i].click();document.getElementsByClassName('aOOlW -Cab_   ')[0].click();
+}, 6000);
+}
+
+
+
+
+
+for(let i = 1; i < document.getElementsByClassName('sqdOP  L3NKy    _8A5w5    ').length; i++){setTimeout(function(){document.getElementsByClassName('sqdOP  L3NKy   y3zKF     ')[i].click();document.getElementsByClassName('aOOlW -Cab_   ')[0].click();}, 10000 * i)}
+
+
+
+
+
+for(let i = 0; i < 30; i++){
+setTimeout(function(){
+document.getElementsByClassName('glyphsSpriteHeart__outline__24__grey_9 u-__7')[0].click();
+}, 10000);setTimeout(function(){
+document.getElementsByClassName('HBoOv coreSpriteRightPaginationArrow')[0].click()
+}, 2000)
+}
+
+
+
+
+
+function teste(i = 0){if(i < document.getElementsByClassName('_9AhH0').length){
+document.getElementsByClassName('_9AhH0')[i].click();
+setTimeout(function(){
+document.getElementsByClassName('glyphsSpriteHeart__outline__24__grey_9 u-__7')[0].click();
+setTimeout(function(){
+document.getElementsByClassName('ckWGn')[0].click();
+setTimeout(function(){i++; teste(i);}, 2000);
+}, 3000)
+}, 3000);
+} else {
+console.log('cu')
+}
+           }
+
+
+
+
+
+
+function Teste(i){if(i < document.getElementsByClassName('_9AhH0').length){
+document.getElementsByClassName('_9AhH0')[i].click();
+setTimeout(function(){
+document.getElementsByClassName('glyphsSpriteHeart__outline__24__grey_9 u-__7')[0].click();
+setTimeout(function(){
+document.getElementsByClassName('ckWGn')[0].click();
+setTimeout(function(){i++; Teste(i);}, 2000);
+}, 3000)
+}, 3000);
+} else {
+console.log('cu')
+}
+} Teste(0);
+
+
+
+
+function Teste(i){if(i < document.getElementsByClassName('_9AhH0').length){
+document.getElementsByClassName('_9AhH0')[i].click();
+setTimeout(function(){
+document.getElementsByClassName('glyphsSpriteHeart__outline__24__grey_9 u-__7')[0].click();
+setTimeout(function(){
+document.getElementsByClassName('ckWGn')[0].click();
+setTimeout(function(){
+if(i > 5){}else {
+i++; Teste(i);}}, 2000);
+}, 3000)
+}, 3000);
+} else {
+console.log('cu')
+}
+} Teste(0);
+
+
+
+function Teste(i){if(i < document.getElementsByClassName('sqdOP  L3NKy    _8A5w5    ').length){
+document.querySelectorAll('.PZuss div button')[i].click();
+setTimeout(function(){
+document.getElementsByClassName('aOOlW -Cab_   ')[0].click();
+setTimeout(function(){
+if(i > 23){}else {
+i++; Teste(i);}}, 2000);
+}, 3000);
+} else {
+console.log('Bot finalizou lista selecionada')
+}
+} Teste(0);
